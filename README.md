@@ -26,7 +26,7 @@ export ENV="staging-3.0"
 region = ap-southeast-1
 ```
 
-### Test if working
+## How to run script
 ```
 source $HOME/aws-monitoring/config/.env && $HOME/aws-monitoring/etc/aws-monitoring-venv/bin/python $HOME/aws-monitoring/disk_mem_usage_cw_metrics.py
 ```
