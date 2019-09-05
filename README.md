@@ -1,5 +1,5 @@
 # AWS Monitoring
-Monitor ec2 disk and memory usage for edukasyon server's
+Monitor disk and memory usage for Edukasyon PH's EC2 instances
 
 ## Setting up
 ```
