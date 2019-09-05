@@ -1,5 +1,5 @@
 # AWS Monitoring
-Monitor disk and memory usage for Edukasyon PH's EC2 instances
+A simple plugin that monitors disk and memory usage for Edukasyon PH's EC2 instances then sends metrics to cloudwatch.
 
 ## Setting up
 ```
