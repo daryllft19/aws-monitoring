@@ -9,7 +9,7 @@ virtualenv -p python3 $HOME/aws-monitoring/etc/venv
 source $HOME/aws-monitoring/etc/venv/bin/activate
 
 # Install modules
-pip3 install $HOME/aws-monitoring/etc/requirements.txt
+pip3 install -r $HOME/aws-monitoring/etc/requirements.txt
 ```
 
 ## App Configuration
