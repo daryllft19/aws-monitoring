@@ -85,7 +85,7 @@ if __name__ == '__main__':
 
     metrics = {
         'MemUsage': mem_used / mem_usage['MemTotal'] * 100,
-        'DiskUsage': 100 - ((disk_usage.f_frsize * disk_usage.f_bfree) / (disk_usage.f_frsize * disk_usage.f_blocks ) * 100)
+        'DiskUsage': 100 - (100.0 * (disk_usage.f_frsize * disk_usage.f_bfree) / (disk_usage.f_frsize * disk_usage.f_blocks ))
     }
 
     session = boto3.session.Session()
