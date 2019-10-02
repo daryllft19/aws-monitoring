@@ -38,6 +38,9 @@ source $HOME/aws-monitoring/config/.env && $HOME/aws-monitoring/etc/aws-monitori
 ```
 
 ## Cron Configuration
+
+#### For some reason, cron in ubuntu needed a separate runner to contain the file as opposed to ami linux that we could just put the code straight
+
 ```
 # After ensuring that the script works, we can setup the cron config
 
