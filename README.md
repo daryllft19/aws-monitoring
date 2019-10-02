@@ -6,8 +6,8 @@ A simple plugin that monitors disk and memory usage for Edukasyon PH's EC2 insta
 # Create virtual environment to install python modules
 # You can put it in $HOME/aws-monitoring/etc
 
-virtualenv -p python3 $HOME/aws-monitoring/etc/venv
-source $HOME/aws-monitoring/etc/venv/bin/activate
+virtualenv -p python3 $HOME/aws-monitoring/etc/aws-monitoring-venv
+source $HOME/aws-monitoring/etc/aws-monitoring-venv/bin/activate
 
 
 # Install modules
