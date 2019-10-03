@@ -18,10 +18,10 @@ pip3 install -r $HOME/aws-monitoring/etc/requirements.txt
 ## App Configuration
 ```
 # Modify config $HOME/aws-monitoring/config/.env
-# export ENV="<environment_type>-<edukasyon-version>-<type>"
+# export ENV="<environment_type>-<edukasyon-version>"
 # This is entirely up to us but preferrably with convention since this can serve as a filter in cloudwatch
 
-export ENV="staging-3.0-edos"
+export ENV="staging-3.0"
 ```
 
 ## AWS Configuration
